@@ -159,22 +159,22 @@
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="https://bluehair.xyz">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Ice Cream</div>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                <div class="h2">Website for The Bot!</div>
+                <p class="mb-0">An informative website created for the Discord bot we made.</p>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="https://associatedpoolsinc.com">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Associated Pools Inc. Website</div>
-                <p class="mb-0">Website for a contracting company feaaturing their best work!</p>
+                <p class="mb-0">Website for a contracting company featuring their best work!</p>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
@@ -184,8 +184,8 @@
           <a class="portfolio-item" href="#!">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Workspace</div>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                <div class="h2">Rust Servers</div>
+                <p class="mb-0">We've made a few rust servers with custom functionality and plugins.</p>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
@@ -214,24 +214,24 @@
   </div> -->
 
   <!--Contact-->
-  <div class="container contact-form">
+  <div class="container contact-form" id="contact">
     <div class="contact-image mt-5">
     </div>
-    <form method="post">
+    <form method="POST" action="contact.php">
         <h3>Drop Us a Message</h3>
        <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" required/>
                 </div>
                 <div class="form-group">
-                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required/>
                 </div>
                 <div class="form-group">
-                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" required/>
                 </div>
                 <div class="form-group">
-                    <input type="submit" name="btnSubmit" class="btnContact btn btn-primary" value="Send Message" />
+                    <input type="submit" name="btnSubmit" class="btnContact btn btn-primary" value="send"/>
                 </div>
             </div>
             <div class="col-md-6">
